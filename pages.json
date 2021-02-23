@@ -1,0 +1,41 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "一个魂儿占卜",
+				"navigationBarBackgroundColor": "#FFC0CB"
+			}
+		},
+		{
+			"path": "pages/center/index",
+			"style": {
+				"navigationBarTitleText": "个人中心",
+				"navigationBarBackgroundColor": "#FFC0CB"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uView",
+		"navigationBarBackgroundColor": "#FFC0CB",
+		"backgroundColor": "#FFC0CB"
+	},
+	"tabBar": {
+		"color": "#909399",
+		"selectedColor": "#303133",
+		"borderStyle": "black",
+		"backgroundColor": "#FFC0CB",
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/index.png",
+			"selectedIconPath": "static/index-selected.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/center/index",
+			"iconPath": "static/center.png",
+			"selectedIconPath": "static/center-selected.png",
+			"text": "我"
+		}]
+	}
+}
