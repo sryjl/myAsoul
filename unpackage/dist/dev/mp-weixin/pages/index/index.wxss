@@ -1,3 +1,98 @@
+@-webkit-keyframes fade-data-v-57280228 {
+0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+30% {
+    -webkit-transform: rotateY(0deg) scale(1.7);
+            transform: rotateY(0deg) scale(1.7);
+}
+75% {
+    -webkit-transform: rotateY(180deg) scale(1.7);
+            transform: rotateY(180deg) scale(1.7);
+}
+100% {
+    -webkit-transform: rotateY(180deg) scale(1);
+            transform: rotateY(180deg) scale(1);
+}
+}
+@keyframes fade-data-v-57280228 {
+0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+}
+30% {
+    -webkit-transform: rotateY(0deg) scale(1.7);
+            transform: rotateY(0deg) scale(1.7);
+}
+75% {
+    -webkit-transform: rotateY(180deg) scale(1.7);
+            transform: rotateY(180deg) scale(1.7);
+}
+100% {
+    -webkit-transform: rotateY(180deg) scale(1);
+            transform: rotateY(180deg) scale(1);
+}
+}
+.tranfinal.data-v-57280228 {
+  -webkit-animation-name: fade-data-v-57280228;
+          animation-name: fade-data-v-57280228;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.butt.data-v-57280228 {
+  display: inline-block;
+  width: 40%;
+  font-size: 30rpx;
+  border-radius: 40rpx;
+}
+.button1.data-v-57280228 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.luckChose.data-v-57280228 {
+  width: 80%;
+  color: #DFA7CC;
+  font-size: 30rpx;
+  margin: auto;
+  margin-top: 30rpx;
+  margin-bottom: 40rpx;
+}
+.luckChose text.data-v-57280228 {
+  color: red;
+}
+.shadow2.data-v-57280228 {
+  box-shadow: 20rpx 20rpx 1px #DFA7CC;
+}
+.transL.data-v-57280228 {
+  -webkit-transform: translateX(-75vw);
+          transform: translateX(-75vw);
+  -webkit-transition: -webkit-transform 0.6s;
+  transition: -webkit-transform 0.6s;
+  transition: transform 0.6s;
+  transition: transform 0.6s, -webkit-transform 0.6s;
+}
+.transR.data-v-57280228 {
+  -webkit-transform: translateX(75vw);
+          transform: translateX(75vw);
+  -webkit-transition: -webkit-transform 0.6s;
+  transition: -webkit-transform 0.6s;
+  transition: transform 0.6s;
+  transition: transform 0.6s, -webkit-transform 0.6s;
+}
+.shadow.data-v-57280228 {
+  box-shadow: #666 0px 0px 20rpx;
+}
 .love.data-v-57280228 {
   position: fixed;
   z-index: 3;
@@ -15,8 +110,8 @@
           transform: scale(0.8);
 }
 .change.data-v-57280228 {
-  margin-top: 10rpx;
-  z-index: 5;
+  margin-top: 40rpx;
+  z-index: 3;
 }
 .change .who.data-v-57280228 {
   font-size: 40rpx;
@@ -32,7 +127,7 @@
 }
 .dataTitle.data-v-57280228 {
   color: #FFFFFF;
-  z-index: 5;
+  z-index: 3;
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -58,8 +153,6 @@
 }
 .content.data-v-57280228 {
   width: 100%;
-  background: url(http://119.29.20.227/background.jpg) no-repeat;
-  background-size: cover;
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
@@ -90,7 +183,7 @@
   z-index: 2;
   /*在这种定位方式下，无需指定伪元素的大小*/
   background: inherit;
-  opacity: 0.7;
+  opacity: 0.5;
   -webkit-filter: blur(5px);
           filter: blur(5px);
 }
@@ -100,15 +193,96 @@
   border-radius: 30rpx;
   margin-left: auto;
   margin-right: auto;
-  z-index: 4;
+  position: absolute;
+  z-index: 7;
 }
-.imga.data-v-57280228 {
+.logo2.data-v-57280228 {
+  top: 0;
+  left: 0;
   height: 45vh;
   width: 25vh;
   border-radius: 30rpx;
   margin-left: auto;
   margin-right: auto;
-  z-index: 3;
+  position: absolute;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  z-index: 6;
+}
+.logossr.data-v-57280228 {
+  bottom: 5vh;
+  left: 50%;
+  height: 13vh;
+  width: 13vh;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  -webkit-transform: rotateY(180deg) translate(50%, 0);
+          transform: rotateY(180deg) translate(50%, 0);
+  z-index: 6;
+}
+.logotext.data-v-57280228 {
+  font-family: "momo_xinjian";
+  color: #5566AC;
+  font-weight: bold;
+  display: block;
+  bottom: 8vh;
+  left: 50%;
+  height: 13vh;
+  max-width: 15vh;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  -webkit-transform: rotateY(180deg) translate(25%, 0);
+          transform: rotateY(180deg) translate(25%, 0);
+  z-index: 6;
+  font-size: 2vh;
+}
+.logotext1.data-v-57280228 {
+  color: #5566AC;
+  font-family: "momo_xinjian";
+  font-weight: bold;
+  display: block;
+  bottom: 6vh;
+  left: 50%;
+  height: 13vh;
+  max-width: 15vh;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  -webkit-transform: rotateY(180deg) translate(75%, 2%);
+          transform: rotateY(180deg) translate(75%, 2%);
+  z-index: 6;
+  font-size: 2vh;
+}
+.logo1.data-v-57280228 {
+  top: 0;
+  left: 0;
+  height: 45vh;
+  width: 25vh;
+  border-radius: 30rpx;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  z-index: 4;
+}
+.imga.data-v-57280228 {
+  position: absolute;
+  height: 45vh;
+  width: 25vh;
+  border-radius: 30rpx;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+.imgb.data-v-57280228 {
+  position: relative;
+  height: 45vh;
+  width: 25vh;
+  border-radius: 30rpx;
+  margin-left: auto;
+  margin-right: auto;
 }
 .text-area.data-v-57280228 {
   display: -webkit-box;
@@ -139,5 +313,8 @@
 }
 .button-demo .btnHoverClass-plain.data-v-57280228::after {
   background-color: rgba(0, 0, 0, 0.08) !important;
+}
+.button-demo .logoss.data-v-57280228 {
+  z-index: 5;
 }
 

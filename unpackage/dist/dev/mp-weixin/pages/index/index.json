@@ -1,5 +1,7 @@
 {
   "navigationBarTitleText": "一个魂儿占卜",
   "navigationBarBackgroundColor": "#FFC0CB",
-  "usingComponents": {}
+  "usingComponents": {
+    "pop": "/components/ming-pop/ming-pop"
+  }
 }

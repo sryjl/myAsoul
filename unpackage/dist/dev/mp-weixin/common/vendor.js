@@ -8011,6 +8011,495 @@ function normalizeComponent (
 }
 
 
+/***/ }),
+/* 11 */,
+/* 12 */,
+/* 13 */,
+/* 14 */,
+/* 15 */,
+/* 16 */,
+/* 17 */
+/*!******************************************!*\
+  !*** D:/asoul1/asoul/static/luckjson.js ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0; //1.大吉 2.小吉 3.吉 4.末吉 5.凶
+var luckTip = [
+{
+  id: 0,
+  luck: '大吉',
+  content: '众人仰望，心想事成' },
+
+{
+  id: 1,
+  luck: '小吉',
+  content: '阴云皆去，何不开眉' },
+
+{
+  id: 2,
+  luck: '凶',
+  content: '欲壑难填，水母有梦' },
+
+{
+  id: 3,
+  luck: '吉',
+  content: '思如泉涌，下笔如龙' },
+
+{
+  id: 4,
+  luck: '凶',
+  content: '乌云蔽月，再难见星' },
+
+{
+  id: 5,
+  luck: '末吉',
+  content: '心有所念，方得始终' },
+
+{
+  id: 6,
+  luck: '凶',
+  content: '登船而去，败兴而归' },
+
+{
+  id: 7,
+  luck: '大吉',
+  content: '文华得理，当遇心喜' },
+
+{
+  id: 8,
+  luck: '大吉',
+  content: '有名得遇，仙人指路' },
+
+{
+  id: 9,
+  luck: '大吉',
+  content: '除旧迎新，枯木逢春' },
+
+{
+  id: 10,
+  luck: '大吉',
+  content: '云中好箭，家业振兴' },
+
+{
+  id: 11,
+  luck: '大吉',
+  content: '杨柳遇春，残花开枝' },
+
+{
+  id: 12,
+  luck: '大吉',
+  content: '旧枝新发，更上云梯' },
+
+{
+  id: 13,
+  luck: '末吉',
+  content: '玉石未分，忧亦更悲' },
+
+{
+  id: 14,
+  luck: '凶',
+  content: '久病未苏，卧龙失珠' },
+
+{
+  id: 15,
+  luck: '吉',
+  content: '破镜重圆，贵人相助' },
+
+{
+  id: 16,
+  luck: '吉',
+  content: '离暗出明，旧忧终退' },
+
+{
+  id: 17,
+  luck: '末小吉',
+  content: '蔓生荆棘，竭诚所破' },
+
+{
+  id: 18,
+  luck: '吉',
+  content: '月出时明，珈乐出新' },
+
+{
+  id: 19,
+  luck: '吉',
+  content: '厄运如洗，所向不晚' },
+
+{
+  id: 20,
+  luck: '吉',
+  content: '浓云散去，雨过竹青' },
+
+{
+  id: 21,
+  luck: '吉',
+  content: '鹿行千里，红云步起' },
+
+{
+  id: 22,
+  luck: '凶',
+  content: '心之所向，所向已晚' },
+
+{
+  id: 23,
+  luck: '吉',
+  content: '嘉人得遇，前途了然' },
+
+{
+  id: 24,
+  luck: '吉',
+  content: '得道多助，徒劳无功' },
+
+{
+  id: 25,
+  luck: '吉',
+  content: '红花悦颜，皎月当空' },
+
+{
+  id: 26,
+  luck: '凶',
+  content: '湖前失船，须回旧路' },
+
+{
+  id: 27,
+  luck: '吉',
+  content: '宝财名禄，可遇可求' },
+
+{
+  id: 28,
+  luck: '半吉',
+  content: '鹤立高枝，暗箭难防' },
+
+{
+  id: 29,
+  luck: '末吉',
+  content: '风起云涌，一气飞天' },
+
+{
+  id: 30,
+  luck: '吉',
+  content: '似玉藏琳，乃缺良匠' },
+
+{
+  id: 31,
+  luck: '吉',
+  content: '桃花满地，如遇新春' },
+
+{
+  id: 32,
+  luck: '吉',
+  content: '鲲兴巨浪，芳菲喜新' },
+
+{
+  id: 33,
+  luck: '吉',
+  content: '遇道仙籍，光华映晚' },
+
+{
+  id: 34,
+  luck: '末吉',
+  content: '玉兔重生，如月剥蚀' },
+
+{
+  id: 35,
+  luck: '半吉',
+  content: '求名未逢，一箭双鸿' },
+
+{
+  id: 36,
+  luck: '半吉',
+  content: '月照天书，云生彩雾' },
+
+{
+  id: 37,
+  luck: '凶',
+  content: '忧危几度，损断财头' },
+
+{
+  id: 38,
+  luck: '小吉',
+  content: '正方成道，久去烦煎' },
+
+{
+  id: 39,
+  luck: '末吉',
+  content: '嘉乡烟火，祈福安然' },
+
+{
+  id: 40,
+  luck: '吉',
+  content: '桂华春到，云天好进' },
+
+{
+  id: 41,
+  luck: '吉',
+  content: '贵人得遇，好事相宜。' },
+
+{
+  id: 42,
+  luck: '吉',
+  content: '落子先机，天龙降泽' },
+
+{
+  id: 43,
+  luck: '吉',
+  content: '意兴高显，禄马引前' },
+
+{
+  id: 44,
+  luck: '凶',
+  content: '佳人掩门，无事遭迍' },
+
+{
+  id: 45,
+  luck: '吉',
+  content: '大器晚成，财禄相迎' },
+
+{
+  id: 46,
+  luck: '小吉',
+  content: '一朝好渡，鸾凤云飞' },
+
+{
+  id: 47,
+  luck: '吉',
+  content: '正好月圆，蟾蜍皎洁' },
+
+{
+  id: 48,
+  luck: '吉',
+  content: '前途相合，财禄亨通' },
+
+{
+  id: 49,
+  luck: '凶',
+  content: '乐府旧诗，失意茫然' },
+
+{
+  id: 50,
+  luck: '凶',
+  content: '心魔丛生，灾临叹嗟' },
+
+{
+  id: 50,
+  luck: '凶',
+  content: '心魔丛生，灾临叹嗟' },
+
+{
+  id: 51,
+  luck: '凶',
+  content: '门里防人，风雨交加' },
+
+{
+  id: 52,
+  luck: '吉',
+  content: '残花结实，亨禄自迁' },
+
+{
+  id: 53,
+  luck: '凶',
+  content: '思难两全，鱼水相隔' },
+
+{
+  id: 54,
+  luck: '吉',
+  content: '云散月明，天书得诚' },
+
+{
+  id: 55,
+  luck: '末小吉',
+  content: '劳心千度，一夜白头' },
+
+{
+  id: 56,
+  luck: '吉',
+  content: '欲渡江阔，渡人自来' },
+
+{
+  id: 57,
+  luck: '凶',
+  content: '江海相隔，欲渡不得' },
+
+{
+  id: 58,
+  luck: '凶',
+  content: '心行不定，皎月入云' },
+
+{
+  id: 59,
+  luck: '小吉',
+  content: '守道逢泰，风云不偶' },
+
+{
+  id: 60,
+  luck: '半吉',
+  content: '璞玉染墨，鼠过相迎' },
+
+{
+  id: 61,
+  luck: '大吉',
+  content: '高福自昌，明显四方' },
+
+{
+  id: 62,
+  luck: '凶',
+  content: '久困难度，嘉人意疏' },
+{
+  id: 63,
+  luck: '凶',
+  content: '居安思危，鸳鸯自飞' },
+{
+  id: 64,
+  luck: '末吉',
+  content: '苦病防辱，乘危未稣' },
+{
+  id: 65,
+  luck: '凶',
+  content: '重忧心乱，闲事惹骚' },
+{
+  id: 66,
+  luck: '凶',
+  content: '倚身未稳，独惹闲非。' },
+{
+  id: 67,
+  luck: '吉',
+  content: '异梦生杰，芳菲日暖' },
+{
+  id: 68,
+  luck: '凶',
+  content: '暗云浮月，花红半枯' },
+{
+  id: 69,
+  luck: '凶',
+  content: '雷发庭草，炎火天飞' },
+{
+  id: 70,
+  luck: '吉',
+  content: '花果分枝，可始相宜' },
+{
+  id: 71,
+  luck: '凶',
+  content: '道业未成，两不相宜' },
+{
+  id: 72,
+  luck: '吉',
+  content: '登江水澄，终得人成' },
+{
+  id: 73,
+  luck: '凶',
+  content: '交岁成庆，上下不和' },
+{
+  id: 74,
+  luck: '凶',
+  content: '孤舟过岸，浪急人空' },
+{
+  id: 75,
+  luck: '吉',
+  content: '富贵天佑，前程应显' },
+{
+  id: 76,
+  luck: '凶',
+  content: '累滞未稣，登舟浪急' },
+{
+  id: 77,
+  luck: '大吉',
+  content: '存公道正，福如松翠' },
+{
+  id: 78,
+  luck: '吉',
+  content: '残月终圆，祈福得安' },
+{
+  id: 79,
+  luck: '大吉',
+  content: '凤遂鸾飞，升过九天' },
+{
+  id: 80,
+  luck: '小吉',
+  content: '先忧事多，求财宝盛' },
+{
+  id: 81,
+  luck: '大吉',
+  content: '高福自昌，明显四方' },
+{
+  id: 82,
+  luck: '凶',
+  content: '火发连天，要渡无船' },
+{
+  id: 83,
+  luck: '凶',
+  content: '高枝难攀，月入黑云' },
+{
+  id: 84,
+  luck: '大吉',
+  content: '求名渐宁，云梯有望' },
+{
+  id: 85,
+  luck: '大吉',
+  content: '行进宝财，走马听声' },
+{
+  id: 86,
+  luck: '大吉',
+  content: '淘沙见金，青霄有路' },
+{
+  id: 87,
+  luck: '凶',
+  content: '作事不和，佳人生苦' },
+{
+  id: 88,
+  luck: '大吉',
+  content: '琳玉无暇，乃逢喜气' },
+{
+  id: 89,
+  luck: '大吉',
+  content: '前途好事，一信向天' },
+{
+  id: 90,
+  luck: '吉',
+  content: '乘云禄至，月桂逢圆' },
+{
+  id: 91,
+  luck: '吉',
+  content: '逢春骏马，得箭青霄' },
+{
+  id: 92,
+  luck: '吉',
+  content: '鱼临旱池，跳跃入涛' },
+{
+  id: 93,
+  luck: '半吉',
+  content: '人防小辈，免事敌爻' },
+{
+  id: 94,
+  luck: '吉',
+  content: '志气勤修，乘船得风' },
+{
+  id: 95,
+  luck: '凶',
+  content: '雾笼佳人，不见星月' },
+{
+  id: 96,
+  luck: '凶',
+  content: '欲理更乱，愁遍是非' },
+{
+  id: 97,
+  luck: '大吉',
+  content: '鸡凤同飞，宝货满归' },
+{
+  id: 98,
+  luck: '大吉',
+  content: '红日当照，暗月重圆' },
+{
+  id: 99,
+  luck: '凶',
+  content: '不遇神仙，空意阑珊' }];var _default =
+
+
+
+luckTip;exports.default = _default;
+
 /***/ })
 ]]);
 //# sourceMappingURL=../../.sourcemap/mp-weixin/common/vendor.js.map
